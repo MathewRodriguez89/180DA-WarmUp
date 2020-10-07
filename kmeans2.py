@@ -47,7 +47,7 @@ while(True):
     # Flips image horizontally, i.e. mirror image
     if ret == True:
         frame = cv2.flip(frame,1) # By using 1 we flip horizontal '0' would flip vertical
-        frame2 = frame[150:330, 150:490]
+        frame2 = frame[152:328, 152:488]
         cv2.rectangle(frame, (150,150), (490, 330), (102, 0, 204), 2)
         
         img = frame2
